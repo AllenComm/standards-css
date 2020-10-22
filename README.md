@@ -160,7 +160,7 @@ Mixins should be used to DRY up your code, add clarity, or abstract complexity--
 
 **Do not nest selectors more than three levels deep!**
 
-```scss/less
+```scss
 .page-container {
     .content {
         .profile {
