@@ -111,15 +111,13 @@ Finally, properties are what give the selected elements of a rule declaration th
 
 While it is possible to select elements by ID in CSS, it should generally be considered an anti-pattern. ID selectors introduce an unnecessarily high level of [specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) to your rule declarations, and they are not reusable.
 
-For more on this subject, read [CSS Wizardry's article](http://csswizardry.com/2014/07/hacks-for-dealing-with-specificity/) on dealing with specificity.
-
 **[⬆ back to top](#table-of-contents)**
 
 ## Sass/Less
 
 ### Syntax
 
-* Order your regular CSS and `@include` declarations alphabetically as much as you can
+* Order your regular CSS declarations alphabetically as much as you can
 
 ### Ordering of property declarations
 
