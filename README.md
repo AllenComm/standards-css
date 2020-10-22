@@ -1,4 +1,4 @@
-# AllenComm CSS / Sass Styleguide
+# AllenComm CSS / Sass / Less Styleguide
 
 ## Table of Contents
 
