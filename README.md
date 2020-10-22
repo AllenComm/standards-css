@@ -126,7 +126,7 @@ For more on this subject, read [CSS Wizardry's article](http://csswizardry.com/2
 
 1. Property declarations
 
-    List all standard property declarations, anything that isn't an `@include` or a nested selector.
+    List all standard property declarations, anything that isn't a nested selector.
 
     ```scss
     .btn-green {
@@ -136,20 +136,7 @@ For more on this subject, read [CSS Wizardry's article](http://csswizardry.com/2
     }
     ```
 
-2. `@include` declarations
-
-    Grouping `@include`s at the end makes it easier to read the entire selector.
-
-    ```scss
-    .btn-green {
-        background: green;
-        font-weight: bold;
-        @include transition(background 0.5s ease);
-        // ...
-    }
-    ```
-
-3. Nested selectors
+2. Nested selectors
 
     Nested selectors, _if necessary_, go last, and nothing goes after them. Add whitespace between your rule declarations and nested selectors, as well as between adjacent nested selectors. Apply the same guidelines as above to your nested selectors.
 
@@ -157,7 +144,6 @@ For more on this subject, read [CSS Wizardry's article](http://csswizardry.com/2
     .btn {
         background: green;
         font-weight: bold;
-        @include transition(background 0.5s ease);
 
         .icon {
             margin-right: 10px;
