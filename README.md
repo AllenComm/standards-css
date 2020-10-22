@@ -10,7 +10,7 @@
     - [Formatting](#formatting)
     - [Comments](#comments)
     - [ID Selectors](#id-selectors)
-1. [Sass/Less](#sass)
+1. [Sass/Less](#sassless)
     - [Syntax](#syntax)
     - [Ordering](#ordering-of-property-declarations)
     - [Variables](#variables)
