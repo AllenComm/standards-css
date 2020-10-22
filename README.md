@@ -9,16 +9,12 @@
 1. [CSS](#css)
     - [Formatting](#formatting)
     - [Comments](#comments)
-    - [OOCSS and BEM](#oocss-and-bem)
     - [ID Selectors](#id-selectors)
-    - [JavaScript hooks](#javascript-hooks)
-    - [Border](#border)
 1. [Sass](#sass)
     - [Syntax](#syntax)
     - [Ordering](#ordering-of-property-declarations)
     - [Variables](#variables)
     - [Mixins](#mixins)
-    - [Extend directive](#extend-directive)
     - [Nested selectors](#nested-selectors)
 
 ## Terminology
