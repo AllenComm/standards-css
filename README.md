@@ -10,7 +10,7 @@
     - [Formatting](#formatting)
     - [Comments](#comments)
     - [ID Selectors](#id-selectors)
-1. [Sass](#sass)
+1. [Sass/Less](#sass)
     - [Syntax](#syntax)
     - [Ordering](#ordering-of-property-declarations)
     - [Variables](#variables)
@@ -115,12 +115,11 @@ For more on this subject, read [CSS Wizardry's article](http://csswizardry.com/2
 
 **[⬆ back to top](#table-of-contents)**
 
-## Sass
+## Sass/Less
 
 ### Syntax
 
-* Use the `.scss` syntax, never the original `.sass` syntax
-* Order your regular CSS and `@include` declarations logically (see below)
+* Order your regular CSS and `@include` declarations alphabetically as much as you can
 
 ### Ordering of property declarations
 
@@ -153,7 +152,7 @@ For more on this subject, read [CSS Wizardry's article](http://csswizardry.com/2
 
 ### Variables
 
-Prefer dash-cased variable names (e.g. `$my-variable`) over camelCased or snake_cased variable names. 
+Prefer dash-cased variable names (e.g. `$my-variable`, `@my-variable`) over camelCased or snake_cased variable names. 
 
 ### Mixins
 
@@ -163,7 +162,7 @@ Mixins should be used to DRY up your code, add clarity, or abstract complexity--
 
 **Do not nest selectors more than three levels deep!**
 
-```scss
+```scss/less
 .page-container {
     .content {
         .profile {
