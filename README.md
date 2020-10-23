@@ -158,7 +158,7 @@ Mixins should be used to DRY up your code, add clarity, or abstract complexity--
 
 ### Nested selectors
 
-**Do not nest selectors more than three levels deep!**
+Try not to use selectors more than three levels deep.
 
 ```scss
 .page-container {
